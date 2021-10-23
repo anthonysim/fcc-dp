@@ -14,4 +14,4 @@ function countConstruct(target, wordDict, memo = {}) {
   return memo[target];
 };
 
-console.log(countConstruct("abcdef", ["ab", "abc", "cd", "def", "abcd"])); // true
+console.log(countConstruct("abcdef", ["ab", "abc", "cd", "def", "abcd"])); // 1
